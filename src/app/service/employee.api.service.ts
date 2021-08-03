@@ -17,6 +17,7 @@ export class EmployeeApiService {
   }
 
   private loginEndPointLocalServer: string = environment.apiHost + '/create';
+
   private getAllEmployeeApi: string = environment.apiHost + '/show/all/list';
   private getAllEmployeeByIdApi: string = environment.apiHost + '/show/list/by/';
   private updateAllEmployeeByIdApi: string = environment.apiHost + '/update/employee/by/';

@@ -11,13 +11,15 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import { EmployeListComponent } from './employe-list/employe-list.component';
 import { EmployeeListShowComponent } from './employee-list-show/employee-list-show.component';
+import { FirstComponent } from './nghh/first/first.component';
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeinfoComponent,
     SiteHomeComponent,
     EmployeListComponent,
-    EmployeeListShowComponent
+    EmployeeListShowComponent,
+    FirstComponent
   ],
   imports: [
     BrowserModule,
